@@ -76,18 +76,18 @@ float monocytes(float age,float y ){
     return calc2;
 }
 
-float eosinophils(float age,float y,char gender){
+float eosinophils(float age,float y,int gender){
 
     char f,m;
     float result;
     float a,b,calc3;
 
-    if(age >= 18 && gender == 'f'){
+    if(age >= 18 && gender == 0 ){
         a = 0.04;
         b = 0.4;
         result = normal(a, b, y);
     }
-    else if(age >= 18 && gender =='m'){
+    else if(age >= 18 && gender == 1){
         a = 0.04;
         b = 0.5;
         result = normal(a, b, y);
@@ -110,18 +110,18 @@ float eosinophils(float age,float y,char gender){
     return calc3;
 }
 
-float basophils(float age,float y,char gender){
+float basophils(float age,float y,int gender){
 
     char f,m;
     float result;
     float a,b,calc4;
 
-    if(age >= 18 && gender =='f'){
+    if(age >= 18 && gender == 0){
         a = 0.00;
         b = 0.1;
         result = normal(a, b, y);
     }
-    else if(age >= 18 && gender =='m'){
+    else if(age >= 18 && gender == 1 ){
         a = 0.00;
         b = 0.2;
         result = normal(a, b, y);
@@ -178,29 +178,29 @@ float reticulocytes(float age,float y){
     return calc6;
 }
 
-float redbloodcell(float age,float y,char gender){
+float redbloodcell(float age,float y,int gender){
 
     char f,m;
     float result;
     float a,b,calc7;
 
-    if(age >= 18 && gender == 'f'){
+    if(age >= 18 && gender == 0 ){
         a = 3.8;
         b = 5.8;
         result = normal(a, b, y);
     }
-    else if(age >= 18 && gender =='m'){
+    else if(age >= 18 && gender == 1 ){
         a = 4.5;
         b = 6.5;
         result = normal(a, b, y);
     }
     else if (age < 18 ){
 
-        if(age >= 12 && age <= 17 && gender== 'm'){
+        if(age >= 12 && age <= 17 && gender== 1){
             a = 4.5 ;
             b = 5.3;
             result = normal(a, b, y);}
-        else if(age >= 12 && age <= 17 && gender== 'f'){
+        else if(age >= 12 && age <= 17 && gender== 0 ){
             a = 4.1 ;
             b = 5.1;
             result = normal(a, b, y);}
@@ -216,29 +216,29 @@ float redbloodcell(float age,float y,char gender){
     return calc7;
 }
 
-float haemoglobin(float age,float y,char gender){
+float haemoglobin(float age,float y,int gender){
 
     char f,m;
     float result;
     float a,b,calc8;
 
-    if(age >= 18 && gender == 'f'){
+    if(age >= 18 && gender == 0 ){
         a = 115;
         b = 160;
         result = normal(a, b, y);
     }
-    else if(age >= 18 && gender =='m'){
+    else if(age >= 18 && gender == 1 ){
         a = 135;
         b = 180;
         result = normal(a, b, y);
     }
     else if (age < 18 ){
 
-        if(age >= 12 && age <= 17 && gender== 'm'){
+        if(age >= 12 && age <= 17 && gender== 1 ){
             a = 130;
             b = 170;
             result = normal(a, b, y);}
-        else if(age >= 12 && age <= 17 && gender== 'f'){
+        else if(age >= 12 && age <= 17 && gender== 0 ){
             a = 120 ;
             b = 160;
             result = normal(a, b, y);}
@@ -253,29 +253,29 @@ float haemoglobin(float age,float y,char gender){
         }}
     return calc8;
 }
-float hematocrit(float age,float y,char gender){
+float hematocrit(float age,float y,int gender){
 
     char f,m;
     float result;
     float a,b,calc9;
 
-    if(age >= 18 && gender == 'f'){
+    if(age >= 18 && gender == 0 ){
         a = 0.36;
         b = 0.48;
         result = normal(a, b, y);
     }
-    else if(age >= 18 && gender =='m'){
+    else if(age >= 18 && gender == 1 ){
         a = 0.4;
         b = 0.54;
         result = normal(a, b, y);
     }
     else if (age < 18 ){
 
-        if(age >= 12 && age <= 17 && gender== 'm'){
+        if(age >= 12 && age <= 17 && gender== 1){
             a = 0.37;
             b = 0.49;
             result = normal(a, b, y);}
-        else if(age >= 12 && age <= 17 && gender== 'f'){
+        else if(age >= 12 && age <= 17 && gender== 0 ){
             a = 0.36;
             b = 0.46;
             result = normal(a, b, y);}
