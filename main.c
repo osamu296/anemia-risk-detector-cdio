@@ -1,118 +1,141 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include"ec_patient.h"
-
-struct parameter{
-
-    float lc;
-    float mono_c;
-    float bc;
-    float ec;
-    float bili;
-    float rc;
-    float hb;
-    float rbc;
-    float hct;
-};
+#include<string.h>
+#include<time.h>
+#include <dos.h>
+#include <dir.h>
+#include <windows.h>
 
 struct p_i{
-    float age;
-    char gender;
+    char ic[13];
+    char bday[5];
+    char bdate[5];
+    char bmonth[5];
+    char byear[5];
+    char gender[5];
 };
+struct p_i user;
 
 int main()
 {
-    struct parameter user1;
-    struct p_i user;
-    float age;
-    char f,m,c,gender;
-    int s_lc=0,s_mono_c=0,s_bc=0,s_ec=0,s_bili=0,s_rc=0,s_hb=0,s_rbc=0,s_hct=0;
-    float result;
-    float calc,calc2,calc3,calc4,calc5,calc6;
-    float calc7,calc8,calc9;
 
-    printf("\n******************\n");
-    printf(" Age = ");
-    scanf("%f",&user.age);
-    printf(" gender (f/m)=");
-    fflush(stdin);
-    scanf("%c",&user.gender);
+    int i=0;
+    int yr,mt,dy,st,gd;
+    int gender1,year_birth,days_inmonth, month_birth;
+    time_t t;
 
-    while(user1.rbc < 0 || s_rbc != 1)
+
+    printf("ic number       : ");
+    scanf("%s",&user.ic);
+
+     for (i=0;i<2;i++)
+ {
+     user.byear[i]=user.ic[i];
+     user.bmonth[i]=user.ic[i+2];
+     user.bday[i]=user.ic[i+4];
+     //state[i]=user.ic[i+6];
+     user.gender[i]=user.ic[i+10];
+ }
+ //change the string char to int
+    yr=atoi(user.byear);
+    mt=atoi(user.bmonth);
+    dy=atoi(user.bday);
+    gd=atoi(user.gender);
+    time(&t);
+
+    //calculating gender
+    gender1=gd&1;
+
+     if(mt==1)
     {
-        printf(" Red Blood Cell count: ");
-        s_rbc = scanf("%f",&user1.rbc);
+        days_inmonth=31;
+    }
+    if(mt==2)
+    {
+        days_inmonth=29;
+    }
+    if(mt==3)
+    {
+        days_inmonth=31;
+    }
+    if(mt==4)
+    {
+        days_inmonth=30;
+    }
+    if(mt==5)
+    {
+        days_inmonth=31;
+    }
+    if(mt==6)
+    {
+        days_inmonth=30;
+    }
+    if(mt==7)
+    {
+        days_inmonth=31;
+    }
+    if(mt==8)
+    {
+        days_inmonth=31;
+    }
+    if(mt==9)
+    {
+        days_inmonth=30;
+    }
+    if(mt==10)
+    {
+        days_inmonth=31;
+    }
+    if(mt==11)
+    {
+        days_inmonth=30;
+    }
+    if(mt==12)
+    {
+        days_inmonth=31;
     }
 
-    while(user1.hb < 0 || s_hb != 1)
+//real time age (using syntax time.h)
+    struct tm tm=*localtime(&t);
+
+    int age_inyear =(tm.tm_year+1900)-yr-1900;
+    int age_inmonth =(tm.tm_mon + 1)- mt;
+    int age_indays=(tm.tm_mday)- dy;
+
+    if (age_inyear>=100)
     {
-        printf(" Haemoglobin count : ");
-        s_hb = scanf("%f",&user1.hb);
+       age_inyear =(tm.tm_year+ 0000)-yr-100;
     }
-
-    while(user1.hct < 0 || s_hct != 1)
+    if (age_inmonth<=0)
     {
-        printf(" Haematocrit count : ");
-        s_hct = scanf("%f",&user1.hct);
+     age_inyear =(tm.tm_year+ 0000)-yr-1-100;
+     age_inmonth= 12 + (tm.tm_mon + 1)- mt;
     }
-
-    while(user1.lc < 0 || s_lc != 1)
+    if (age_indays<=0)
     {
-        printf(" lymphocyte : ");
-        s_lc = scanf("%f",&user1.lc);
+       age_inmonth =(tm.tm_mon + 1) + mt;
+       age_indays = days_inmonth+(tm.tm_mday)-dy;
     }
+   if (yr>=20&&yr<100)
+ {
+     year_birth=yr +1900;
+     printf("Birth date (dd/mm/yyyy)           : %d/ %d / %d \n", dy,mt,year_birth);
+ }
+    else
+ {
+     year_birth=yr + 2000;
+     printf("Birth date (dd/mm/yyyy)           : %d / %d / %d \n", dy,mt,year_birth);
+ }
 
-    while(user1.mono_c < 0 || s_mono_c != 1)
-    {
-         printf(" monocytes: ");
-        s_mono_c = scanf("%f",&user1.mono_c);
-    }
+    printf("Age                               : %d years %d month %d days \n", age_inyear,age_inmonth,age_indays);
 
-    while(user1.ec < 0 || s_ec != 1)
-    {
-        printf(" eosinophils: ");
-        s_ec = scanf("%f",&user1.ec);
-    }
-
-    while(user1.bc < 0 || s_bc != 1)
-    {
-        printf(" basophils: ");
-        s_bc = scanf("%f",&user1.bc);
-    }
-
-    while(user1.bili < 0 || s_bili != 1)
-    {
-        printf(" Total bilirubin: ");
-        s_bili = scanf("%f",&user1.bili);
-    }
-
-    while(user1.rc < 0 || s_rc != 1)
-    {
-        printf(" reticulocyte count: ");
-        s_rc = scanf("%f",&user1.rc);
-    }
-
-    calc = lymphocytes(user.age,user1.lc);
-    calc2 = monocytes(user.age,user1.mono_c);
-    calc3 = eosinophils(user.age,user1.ec,user.gender);
-    calc4 = basophils(user.age,user1.bc,user.gender);
-    calc5 = bilirubin(user.age,user1.bili);
-    calc6 = reticulocytes(user.age,user1.rc);
-    calc7 = redbloodcell(user.age,user1.rbc,user.gender);
-    calc8 = haemoglobin(user.age,user1.hb,user.gender);
-    calc9 = hematocrit(user.age,user1.hct,user.gender);
-
-    printf("\n------------------------");
-    printf("Patient Record");
-    printf("------------------------");
-    printf("\n Red Blood Cell     : %.2f",user1.rbc);
-    printf("\n Haemoglobin        : %.2f",user1.hb);
-    printf("\n Hematocrit         : %.2f",user1.hct);
-    printf("\n lymphocyte         : %.2f",user1.lc);
-    printf("\n monocytes          : %.2f",user1.mono_c);
-    printf("\n eosinophils        : %.2f",user1.ec);
-    printf("\n basophils          : %.2f",user1.bc);
-    printf("\n Total bilirubin    : %.2f",user1.bili);
-    printf("\n Reticulocyte Count : %.2f",user1.rc);
+    if(gender1==1)
+     {
+      printf("Gender                            : Male\n");
+     }
+     else
+     {
+      printf("Gender                            : Female\n");
+     }
     return 0;
 }
