@@ -2,13 +2,13 @@
 #define EC_PATIENT_H_INCLUDED
 
 float normal(float, float, float);
-float redbloodcell(float,float,char);
-float haemoglobin(float,float,char);
-float hematocrit(float,float,char);
+float redbloodcell(float,float,int);
+float haemoglobin(float,float,int);
+float hematocrit(float,float,int);
 float lymphocytes(float,float);
 float monocytes(float,float);
-float eosinophils(float,float,char);
-float basophils(float,float,char);
+float eosinophils(float,float,int);
+float basophils(float,float,int);
 float bilirubin(float,float);
 float reticulocytes(float,float);
 
