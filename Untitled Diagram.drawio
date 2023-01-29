@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T04:39:00.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2avYKsrzxbZOCSoOC3WT" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T05:25:52.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="iK8xARviqLjhhjzX-36h" version="20.8.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="404" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1229" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,8 +13,372 @@
         <mxCell id="V8b1zVf7IkV3LgUFyftW-1" value="Display Clinic Decision Support System for Anaemia&lt;div&gt;&amp;nbsp; &amp;nbsp;Display&amp;nbsp; Log In Page&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="215" y="120" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V8b1zVf7IkV3LgUFyftW-3" value="Read Username" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="200" width="120" height="40" as="geometry" />
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-3" target="V8b1zVf7IkV3LgUFyftW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-3" value="Read Full Name&lt;br&gt;Read Email&lt;br&gt;Read Contact number&lt;br&gt;Read IC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="200" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-10" target="V8b1zVf7IkV3LgUFyftW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-10" target="V8b1zVf7IkV3LgUFyftW-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="350" />
+              <mxPoint x="240" y="520" />
+              <mxPoint x="370" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-10" value="while(user1.rbc &amp;lt; 0 || s_rbc != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="300" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-11" target="V8b1zVf7IkV3LgUFyftW-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="470" />
+              <mxPoint x="520" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-11" value="Read&amp;nbsp;Red Blood Cell count&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="440" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-14" target="V8b1zVf7IkV3LgUFyftW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-14" target="V8b1zVf7IkV3LgUFyftW-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="590" />
+              <mxPoint x="520" y="750" />
+              <mxPoint x="371" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-14" target="V8b1zVf7IkV3LgUFyftW-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="590" />
+              <mxPoint x="240" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-14" value="while(user1.hb &amp;lt; 0 || s_hb != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="540" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-15" value="Read&amp;nbsp;Haemoglobin count&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="286" y="670" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-28" target="V8b1zVf7IkV3LgUFyftW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-28" target="V8b1zVf7IkV3LgUFyftW-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="820" />
+              <mxPoint x="520" y="990" />
+              <mxPoint x="370" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-28" value="while(user1.hct &amp;lt; 0 || s_hct != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="266" y="770" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-30" target="V8b1zVf7IkV3LgUFyftW-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="940" />
+              <mxPoint x="240" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-30" value="Read&amp;nbsp;Haematocrit count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="286" y="910" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-42" target="V8b1zVf7IkV3LgUFyftW-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-42" target="V8b1zVf7IkV3LgUFyftW-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1060" />
+              <mxPoint x="520" y="1230" />
+              <mxPoint x="370" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-42" value="while(user1.lc &amp;lt; 0 || s_lc != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="1010" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-43" target="V8b1zVf7IkV3LgUFyftW-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1180" />
+              <mxPoint x="240" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-43" value="Read&amp;nbsp;lymphocyte" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="1150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-46" target="V8b1zVf7IkV3LgUFyftW-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-46" target="V8b1zVf7IkV3LgUFyftW-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1300" />
+              <mxPoint x="520" y="1460" />
+              <mxPoint x="371" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-46" value="while(user1.mono_c &amp;lt; 0 || s_mono_c != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="249.75" y="1250" width="242.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-47" target="V8b1zVf7IkV3LgUFyftW-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1420" />
+              <mxPoint x="240" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-47" value="Read&amp;nbsp;monocytes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="1390" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-49" target="V8b1zVf7IkV3LgUFyftW-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-49" target="V8b1zVf7IkV3LgUFyftW-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="501" y="1535" />
+              <mxPoint x="501" y="1700" />
+              <mxPoint x="370" y="1700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-49" value="while(user1.ntr &amp;lt; 0 || s_ntr != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260.88" y="1490" width="220.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-50" target="V8b1zVf7IkV3LgUFyftW-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1650" />
+              <mxPoint x="240" y="1535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-50" value="Read&amp;nbsp;neutrophils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="286" y="1620" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-52" target="V8b1zVf7IkV3LgUFyftW-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-52" target="V8b1zVf7IkV3LgUFyftW-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="497" y="1775" />
+              <mxPoint x="497" y="1930" />
+              <mxPoint x="370" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-52" value="while(user1.ec &amp;lt; 0 || s_ec != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="266" y="1730" width="211.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-53" target="V8b1zVf7IkV3LgUFyftW-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1890" />
+              <mxPoint x="240" y="1775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-53" value="Read eosinophils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="286" y="1860" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-55" target="V8b1zVf7IkV3LgUFyftW-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-55" target="V8b1zVf7IkV3LgUFyftW-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="511" y="2000" />
+              <mxPoint x="511" y="2170" />
+              <mxPoint x="370" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-55" value="while(user1.bc &amp;lt; 0 || s_bc != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="248.75" y="1950" width="242.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-56" target="V8b1zVf7IkV3LgUFyftW-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="2120" />
+              <mxPoint x="240" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-56" value="Read basophils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="2090" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-59" target="V8b1zVf7IkV3LgUFyftW-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-59" target="V8b1zVf7IkV3LgUFyftW-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="507" y="2240" />
+              <mxPoint x="507" y="2410" />
+              <mxPoint x="370" y="2410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-59" value="while(user1.bili &amp;lt; 0 || s_bili != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="255.38" y="2190" width="231.25" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-60" target="V8b1zVf7IkV3LgUFyftW-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="2360" />
+              <mxPoint x="240" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-60" value="Read Total bilirubins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="2330" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-62" target="V8b1zVf7IkV3LgUFyftW-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-62" target="V8b1zVf7IkV3LgUFyftW-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="502" y="2485" />
+              <mxPoint x="502" y="2640" />
+              <mxPoint x="370" y="2640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-62" value="while(user1.rc &amp;lt; 0 || s_rc != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260.37" y="2440" width="221.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-63" target="V8b1zVf7IkV3LgUFyftW-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="2600" />
+              <mxPoint x="240" y="2485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-63" value="Read reticulocyte count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="2560" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-65" target="V8b1zVf7IkV3LgUFyftW-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-65" target="V8b1zVf7IkV3LgUFyftW-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="2870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="511" y="2710" />
+              <mxPoint x="511" y="2820" />
+              <mxPoint x="510" y="2820" />
+              <mxPoint x="510" y="2860" />
+              <mxPoint x="370" y="2860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-65" value="while(user1.wbc &amp;lt; 0 || s_wbc != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="248.75" y="2660" width="242.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-66" target="V8b1zVf7IkV3LgUFyftW-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="2830" />
+              <mxPoint x="240" y="2710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-66" value="Read white blood cell" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="2790" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-68" target="V8b1zVf7IkV3LgUFyftW-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-68" target="V8b1zVf7IkV3LgUFyftW-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="511" y="2930" />
+              <mxPoint x="511" y="3090" />
+              <mxPoint x="370" y="3090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-68" value="while(user1.mcv &amp;lt; 0 || s_mcv != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="248.75" y="2880" width="242.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-69" target="V8b1zVf7IkV3LgUFyftW-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="3050" />
+              <mxPoint x="240" y="2930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-69" value="Read mean corpuscular volume" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="3020" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-71" target="V8b1zVf7IkV3LgUFyftW-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-71" target="V8b1zVf7IkV3LgUFyftW-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="3340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="511" y="3160" />
+              <mxPoint x="511" y="3330" />
+              <mxPoint x="370" y="3330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-71" value="while(user1.mch &amp;lt; 0 || s_mch != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="248.75" y="3110" width="242.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-72" target="V8b1zVf7IkV3LgUFyftW-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="3280" />
+              <mxPoint x="240" y="3160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-72" value="Read mean corpuscular hemoglobin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="3250" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-74" target="V8b1zVf7IkV3LgUFyftW-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-74" value="while(user1.mchc &amp;lt; 0 || s_mchc != 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="248.75" y="3350" width="242.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="V8b1zVf7IkV3LgUFyftW-75" target="V8b1zVf7IkV3LgUFyftW-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="229" y="3520" />
+              <mxPoint x="229" y="3400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8b1zVf7IkV3LgUFyftW-75" value="Read mean cospuscular hemoglobin concentration g/L&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="3490" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
