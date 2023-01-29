@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T06:12:26.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="H_iWouXHj8XU71qnpms5" version="20.8.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-29T06:45:15.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Wc6yKpA2KpmV-lmPhYuy" version="20.8.13" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1032" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1518" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -489,7 +489,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aXcvkeIckgn_b0o4M7cS" name="Page-2">
-    <mxGraphModel dx="620" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -564,13 +564,13 @@
         <mxCell id="p886FQG6-4Zix0d3lC7q-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#330000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#33FF33;" edge="1" parent="1" source="p886FQG6-4Zix0d3lC7q-28" target="p886FQG6-4Zix0d3lC7q-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p886FQG6-4Zix0d3lC7q-28" value="calc3 = eosinophils(temp_age,user1.ec,usr.gender,c_age);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="p886FQG6-4Zix0d3lC7q-28" value="calc3 = eosinophils&lt;br&gt;(temp_age,user1.ec,usr.gender,c_age);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="275" y="560" width="322.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p886FQG6-4Zix0d3lC7q-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#330000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#33FF33;" edge="1" parent="1" source="p886FQG6-4Zix0d3lC7q-29" target="p886FQG6-4Zix0d3lC7q-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p886FQG6-4Zix0d3lC7q-29" value="calc4 = basophils(temp_age,user1.bc,usr.gender,c_age);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="p886FQG6-4Zix0d3lC7q-29" value="calc4 = basophils&lt;br&gt;(temp_age,user1.bc,usr.gender,c_age);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="278.75" y="640" width="318.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p886FQG6-4Zix0d3lC7q-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#330000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#33FF33;" edge="1" parent="1" source="p886FQG6-4Zix0d3lC7q-30" target="p886FQG6-4Zix0d3lC7q-31">
@@ -627,8 +627,29 @@
         <mxCell id="p886FQG6-4Zix0d3lC7q-38" value="calc13 = mchc_f(temp_age,user1.mchc,c_age);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="280" y="1280" width="320.56" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="p886FQG6-4Zix0d3lC7q-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#330000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#33FF33;" edge="1" parent="1" source="p886FQG6-4Zix0d3lC7q-39" target="p886FQG6-4Zix0d3lC7q-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="p886FQG6-4Zix0d3lC7q-39" value="calc14 = neutrophils(temp_age,user1.ntr,c_age);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="280" y="1350" width="317.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p886FQG6-4Zix0d3lC7q-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#330000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#33FF33;" edge="1" parent="1" source="p886FQG6-4Zix0d3lC7q-58" target="p886FQG6-4Zix0d3lC7q-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p886FQG6-4Zix0d3lC7q-58" value="Display Patient Summary Report&lt;br&gt;&amp;nbsp;Display Name&lt;br&gt;Display Gender&lt;br&gt;Display IC&amp;nbsp;&lt;br&gt;Display Age&amp;nbsp;&lt;br&gt;Display Contact No&lt;br&gt;Display Email&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="263.13" y="1450" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p886FQG6-4Zix0d3lC7q-59" value="Display Red Blood Cell&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Haemoglobin&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Hematocrit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Lymphocyte&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display monocytes&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Neutrophils&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Eosinophis&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Basophils&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Monocytes&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Total Bilirubin&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Reticulocyte Count&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display White blood cell&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Mean corpuscular volume&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Display Mean Corpuscular Hemoglobin&lt;br&gt;Display Mean Corpuscular Hemoglobin Concentration" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="213.13" y="1620" width="450" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="p886FQG6-4Zix0d3lC7q-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#330000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#33FF33;" edge="1" parent="1" source="p886FQG6-4Zix0d3lC7q-60" target="p886FQG6-4Zix0d3lC7q-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p886FQG6-4Zix0d3lC7q-60" value="Display Patient Pre Evaluation Result&lt;br&gt;Display Type of Anaemia&lt;br&gt;Display Dr Notes&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="284.69" y="2250" width="306.87" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p886FQG6-4Zix0d3lC7q-64" value="end" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="408.13" y="2360" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
